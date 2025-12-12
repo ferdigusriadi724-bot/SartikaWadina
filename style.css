@@ -113,30 +113,3 @@ body {
     padding: 5px 0;
 }
 
-.riwayat-box::before {
-    content: "";
-    position: absolute;
-    bottom: -450px;
-    left: -140px;
-
-    width: 0;
-    height: 0;
-
-
-    border-bottom: 260px solid #000000;
-    border-right: 500px solid transparent;
-}
-
-.riwayat-box::after {
-    content: "";
-    position: absolute;
-    bottom: -450px;
-    left: -100px;
-
-    width: 0;
-    height: 0;
-
-
-    border-bottom: 200px solid #6e3636;
-    border-right: 400px solid transparent;
-}
